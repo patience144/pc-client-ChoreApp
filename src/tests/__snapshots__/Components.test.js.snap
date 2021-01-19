@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Section The Chore Details (Add) Page renders the UI as expected 1`] = `
+<form
+  className="chore-details"
+  onSubmit={[Function]}
+>
+  <input
+    id="name"
+    name="chore"
+    onChange={[Function]}
+    placeholder="Add Chore"
+    type="text"
+    value=""
+  />
+  <button
+    type="submit"
+  >
+    Add
+  </button>
+</form>
+`;
+
+exports[`Main Section The Chore List The Chore Details (Edit) Page renders the UI as expected 1`] = `
+<form
+  className="chore-details"
+  onSubmit={[Function]}
+>
+  <input
+    id="name"
+    name="chore"
+    onChange={[Function]}
+    type="text"
+    value={null}
+  />
+  <button
+    type="submit"
+  >
+    Save
+  </button>
+</form>
+`;
+
+exports[`Main Section The Chore List renders the UI as expected 1`] = `
+<form
+  className="chore-details"
+  onSubmit={[Function]}
+>
+  <input
+    id="name"
+    name="chore"
+    onChange={[Function]}
+    placeholder="Add Chore"
+    type="text"
+    value=""
+  />
+  <button
+    type="submit"
+  >
+    Add
+  </button>
+</form>
+`;
+
+exports[`Main Section The Chore component render the UI as expected 1`] = `
+<div
+  className="chore"
+>
+  <input
+    name="completed"
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="checkbox"
+  />
+  <label
+    className={null}
+  />
+  <button
+    className="item-button"
+    onClick={[Function]}
+  >
+    Edit
+  </button>
+  <button
+    className="item-button"
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</div>
+`;
+
+exports[`Main Section The Nav render the UI as expected 1`] = `
+<div
+  className="nav"
+>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    <h1>
+      Chore App
+    </h1>
+  </a>
+  <ul
+    className="nav-list"
+  >
+    <li>
+      <a
+        href="/about"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+      >
+        About
+      </a>
+    </li>
+    <li>
+      <a
+        href="/chores"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+      >
+        Chore List
+      </a>
+    </li>
+    <li>
+      <a
+        href="/add"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "black",
+          }
+        }
+      >
+        Add Chores
+      </a>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Main Section The Welcome Page render the UI as expected 1`] = `
+<div
+  className="welcome"
+>
+  <h2>
+    Let's make Chores Easier!!!
+  </h2>
+  <h3>
+    Welcome to the Chore App A place where you can create a list of your chores and work throug them digitally! You can add a chore, delete a chore, or simply check it off for the day! Ready to begin?
+  </h3>
+  <a
+    href="/add"
+    onClick={[Function]}
+  >
+    Click Here to Start!
+  </a>
+</div>
+`;

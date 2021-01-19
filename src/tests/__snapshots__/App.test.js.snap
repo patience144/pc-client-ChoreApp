@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The App Snapshot Test renders the UI as expected 1`] = `
+<main
+  className="App"
+>
+  <div
+    className="nav"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <h1>
+        Chore App
+      </h1>
+    </a>
+    <ul
+      className="nav-list"
+    >
+      <li>
+        <a
+          href="/about"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          About
+        </a>
+      </li>
+      <li>
+        <a
+          href="/chores"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          Chore List
+        </a>
+      </li>
+      <li>
+        <a
+          href="/add"
+          onClick={[Function]}
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          Add Chores
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div
+    className="welcome"
+  >
+    <h2>
+      Let's make Chores Easier!!!
+    </h2>
+    <h3>
+      Welcome to the Chore App A place where you can create a list of your chores and work throug them digitally! You can add a chore, delete a chore, or simply check it off for the day! Ready to begin?
+    </h3>
+    <a
+      href="/add"
+      onClick={[Function]}
+    >
+      Click Here to Start!
+    </a>
+  </div>
+</main>
+`;
