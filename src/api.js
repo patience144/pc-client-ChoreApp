@@ -1,12 +1,12 @@
 const baseURL = 'https://lit-savannah-09158.herokuapp.com'
 
 function getChores() {
-  return fetch(`${baseURL}/chores`)
+  return fetch(`${baseURL}/api/chores`)
     .then(res => res.json())
 };
 
 function createChore(chore) {
-  return fetch(`${baseURL}/chores`, {
+  return fetch(`${baseURL}/api/chores`, {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(chore)
@@ -15,7 +15,7 @@ function createChore(chore) {
 };
 
 function editChore(id, values) {
-  return fetch(`${baseURL}/chores/${id}`, {
+  return fetch(`${baseURL}/api/chores/${id}`, {
     method: 'PATCH',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(values)
@@ -23,7 +23,7 @@ function editChore(id, values) {
 }
 
 function deleteChore(id) {
-  return fetch(`${baseURL}/chores/${id}`, {
+  return fetch(`${baseURL}/api/chores/${id}`, {
     method: 'DELETE'
   })
 };
