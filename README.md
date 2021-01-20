@@ -14,7 +14,7 @@ Deployment Platform
 Vercel
 
 Languages/Tools
-JavaScript, Node.js, Express.js, Knex.js, PostgreSQL, Nodemon, Postgrator, HTML5, CSS3
+JavaScript, React, Node.js, Express.js, Knex.js, PostgreSQL, Nodemon, Postgrator, HTML5, CSS3
 
     Loggers: Morgan, Winston
     Securities: CORS, Helmet
