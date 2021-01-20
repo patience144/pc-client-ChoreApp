@@ -1,5 +1,5 @@
 import { BrowserRouter } from 'react-router-dom';
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
 import ReactDOM from 'react-dom';
 import App from '../App';
@@ -25,3 +25,9 @@ describe('The App', () => {
 });
 
 
+
+
+
+
+
+// , screen
