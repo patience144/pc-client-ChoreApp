@@ -50,3 +50,17 @@ Scripts
 5. Seed the tables with psql -U admin -d devmap -f ./seeds/seed.devmap.sql with preset data.
 6. Start the application npm start; tests will run automatically
 7. Alternatively, you may start the application with nodemon npm run dev; tests will not run unless manually set to
+
+Navigation
+
+Landing Page: This is the irst page the user will see.
+![Landing Page]https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.30%20PM.png
+
+Add Chore Page: This is were the user can add a chore.
+![Add Chore Page]https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.39%20PM.png
+
+Chore List Page: This is where all of the chores will be listed.
+![Chore List Page]https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.47%20PM.png
+
+Edit Chore Page: This is where the user can edit the chore.
+![Edit Chore Page]https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.47%20PM.png
