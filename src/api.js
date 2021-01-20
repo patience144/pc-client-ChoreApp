@@ -1,4 +1,4 @@
-const baseURL = 'https://lit-savannah-09158.herokuapp.com/'
+const baseURL = 'https://lit-savannah-09158.herokuapp.com'
 
 function getChores() {
   return fetch(`${baseURL}/chores`)
