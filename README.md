@@ -5,13 +5,13 @@ A chore application to help organize ones chores and keep track of tasks at hand
 This app allow users to catelog their chores and keep tract of work to be done and work that has been done. Users are able to add new chores, edit those chores, mark the chores that have been completed and delete chores that they no longer need.
 
 The API holds all of the users chores and has them readyly availible when the user needs them. Please read the instructions below for more information.
-Client-side link: verel link here
+Client-side link: https://pc-client-three.vercel.app/
 
-Client-Side
-//here
+API-Side
+https://lit-savannah-09158.herokuapp.com/
 
 Deployment Platform
-//here
+Vercel
 
 Languages/Tools
 JavaScript, Node.js, Express.js, Knex.js, PostgreSQL, Nodemon, Postgrator, HTML5, CSS3
@@ -54,13 +54,13 @@ Scripts
 Navigation
 
 Landing Page: This is the irst page the user will see.
-![Landing Page]https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.30%20PM.png
+![Landing Page](https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.30%20PM.png)
 
 Add Chore Page: This is were the user can add a chore.
-![Add Chore Page]https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.39%20PM.png
+![Add Chore Page](https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.39%20PM.png)
 
 Chore List Page: This is where all of the chores will be listed.
-![Chore List Page]https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.47%20PM.png
+![Chore List Page](https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.47%20PM.png)
 
 Edit Chore Page: This is where the user can edit the chore.
-![Edit Chore Page]https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.47%20PM.png
+![Edit Chore Page](https://github.com/patience144/pc-client-ChoreApp/blob/main/src/img/Screen%20Shot%202021-01-20%20at%2012.34.47%20PM.png)
