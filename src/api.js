@@ -1,8 +1,8 @@
-const baseURL = 'https://lit-savannah-09158.herokuapp.com'
+const baseURL = 'https://lit-savannah-09158.herokuapp.com';
 
 function getChores() {
   return fetch(`${baseURL}/api/chores`)
-    .then(res => res.json())
+    .then(res => res.json());
 };
 
 function createChore(chore) {
@@ -19,13 +19,13 @@ function editChore(id, values) {
     method: 'PATCH',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify(values)
-  })
-}
+  });
+};
 
 function deleteChore(id) {
   return fetch(`${baseURL}/api/chores/${id}`, {
     method: 'DELETE'
-  })
+  });
 };
 
 const api = {

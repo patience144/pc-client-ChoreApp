@@ -23,38 +23,40 @@ class App extends React.Component {
 
   render() {
     return (
-      <main className="App">
+      <main className='App'>
         <Nav />
-        <ChoresContext.Provider value={{
-          chores: this.state.chores,
-          updateChores: this.updateChores
-        }}>
-        <Switch>
-          <Route path={"/"} exact component={Welcome} />
-          <Route path={"/about"} component={Welcome} />
-          <Route
-            path={"/chores"}
-            render={() => <ChoreList chores={this.state.chores} />}
-          />
-          <Route
-            path={"/add"}
-            render={() => (
-              <AddChore
-                chores={this.state.chores}
-                updateChores={this.updateChores}
-              />
-            )}
-          />
-          <Route
-            path={"/edit/:choreID"}
-            render={() => (
-              <EditChore
-                chores={this.state.chores}
-                updateChores={this.updateChores}
-              />
-            )}
-          />
-        </Switch>
+        <ChoresContext.Provider
+          value={{
+            chores: this.state.chores,
+            updateChores: this.updateChores,
+          }}
+        >
+          <Switch>
+            <Route path={"/"} exact component={Welcome} />
+            <Route path={"/about"} component={Welcome} />
+            <Route
+              path={"/chores"}
+              render={() => <ChoreList chores={this.state.chores} />}
+            />
+            <Route
+              path={"/add"}
+              render={() => (
+                <AddChore
+                  chores={this.state.chores}
+                  updateChores={this.updateChores}
+                />
+              )}
+            />
+            <Route
+              path={"/edit/:choreID"}
+              render={() => (
+                <EditChore
+                  chores={this.state.chores}
+                  updateChores={this.updateChores}
+                />
+              )}
+            />
+          </Switch>
         </ChoresContext.Provider>
       </main>
     );

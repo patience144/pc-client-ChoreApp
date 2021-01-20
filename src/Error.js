@@ -1,8 +1,8 @@
-import React from 'react';
-import './Error.css';
+import React from "react";
+import "./Error.css";
 
 class Error extends React.Component {
-  static defaultProps = { message: '' }
+  static defaultProps = { message: "" };
 
   render() {
     return (
@@ -11,7 +11,7 @@ class Error extends React.Component {
         <p>{this.props.message}</p>
       </div>
     );
-  };
-};
+  }
+}
 
 export default Error;
