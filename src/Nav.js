@@ -8,27 +8,27 @@ export default function Nav() {
   };
 
   return (
-    <div className='nav'>
-      <Link to='/'>
+    <div className="nav">
+      <Link to="/">
         <h1>Chore App</h1>
       </Link>
-      <ul className='nav-list'>
+      <ul className="nav-list">
         <li>
-          <Link style={navStyle} to='/about'>
+          <Link style={navStyle} to="/about">
             About
           </Link>
         </li>
         <li>
-          <Link style={navStyle} to='/chores'>
+          <Link style={navStyle} to="/chores">
             Chore List
           </Link>
         </li>
         <li>
-          <Link style={navStyle} to='/add'>
+          <Link style={navStyle} to="/add">
             Add Chores
           </Link>
         </li>
       </ul>
     </div>
   );
-}
+};

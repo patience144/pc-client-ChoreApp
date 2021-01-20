@@ -23,7 +23,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <main className='App'>
+      <main className="App">
         <Nav />
         <ChoresContext.Provider
           value={{
@@ -69,7 +69,7 @@ class App extends React.Component {
         this.setState({ chores });
       })
       .catch((error) => console.log({ error }));
-  }
-}
+  };
+};
 
 export default withRouter(App);

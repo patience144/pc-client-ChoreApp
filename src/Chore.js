@@ -31,7 +31,7 @@ class Chore extends React.Component {
 
   render = () => {
     return (
-      <div className='chore'>
+      <div className="chore">
         <input
           onFocus={(evt) => {
             evt.target.style.color = "red";
@@ -40,8 +40,8 @@ class Chore extends React.Component {
             this.setState({ completed: e.target.checked });
             this.toggleComplete(e.target.checked);
           }}
-          type='checkbox'
-          name='completed'
+          type="checkbox"
+          name="completed"
           checked={this.props.chore.completed}
         />
         <label className={this.props.chore.completed ? "checked" : null}>
@@ -51,12 +51,12 @@ class Chore extends React.Component {
           onClick={() =>
             this.props.history.push(`/edit/${this.props.chore.chore_id}`)
           }
-          className='item-button'
+          className="item-button"
         >
           Edit
         </button>
         <button
-          className='item-button'
+          className="item-button"
           onClick={() => this.deleteChore(this.props.chore.chore_id)}
         >
           Delete
@@ -64,6 +64,6 @@ class Chore extends React.Component {
       </div>
     );
   };
-}
+};
 
 export default withRouter(Chore);

@@ -30,27 +30,27 @@ class AddChore extends React.Component {
 
   render() {
     return (
-      <form className='chore-details' onSubmit={this.onSubmitForm}>
+      <form className="chore-details" onSubmit={this.onSubmitForm}>
         <input
-          id='name'
-          type='text'
-          name='chore'
+          id="name"
+          type="text"
+          name="chore"
           onChange={(e) => this.setState({ chore: e.target.value })}
           placeholder={"Add Chore"}
           value={this.state.chore}
         />
 
-        <button type='submit'>Add</button>
+        <button type="submit">Add</button>
       </form>
     );
-  }
+  };
 
   componentDidMount() {
     const id = Number(this.props.match.params.choreID);
     const chore = this.props.chores.find((chore) => chore.chore_id === id);
     const name = chore ? chore.name : "";
     this.setState({ chore: name });
-  }
-}
+  };
+};
 
 export default withRouter(AddChore);

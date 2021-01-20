@@ -27,16 +27,16 @@ class EditChore extends React.Component {
 
   render() {
     return (
-      <form className='chore-details' onSubmit={this.onSubmitForm}>
+      <form className="chore-details" onSubmit={this.onSubmitForm}>
         <input
-          id='name'
-          type='text'
-          name='chore'
+          id="name"
+          type="text"
+          name="chore"
           onChange={(e) => this.setState({ chore: e.target.value })}
           value={this.state.chore}
         />
 
-        <button type='submit'>Save</button>
+        <button type="submit">Save</button>
       </form>
     );
   }

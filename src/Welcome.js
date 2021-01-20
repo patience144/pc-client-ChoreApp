@@ -4,7 +4,7 @@ import "./Welcome.css";
 
 export default function Welcome() {
   return (
-    <div className='welcome'>
+    <div className="welcome">
       <h2>Let's make Chores Easier!!!</h2>
       <h3>
         Welcome to the Chore App! A place where you can create a list of your
@@ -14,7 +14,7 @@ export default function Welcome() {
         Chore list page, you can edit a chore, delete a chore, or simply check
         it off for the day! Ready to begin?
       </h3>
-      <Link to='/add'>Click Here to Start!</Link>
+      <Link to="/add">Click Here to Start!</Link>
     </div>
   );
-}
+};
